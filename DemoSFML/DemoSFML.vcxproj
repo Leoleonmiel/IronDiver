@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Animator.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BossChase.cpp" />
+    <ClCompile Include="BossChaseEnd.cpp" />
+    <ClCompile Include="BossChaseState.cpp" />
+    <ClCompile Include="BossChaseWait.cpp" />
+    <ClCompile Include="BossDash.cpp" />
+    <ClCompile Include="BossDeath.cpp" />
+    <ClCompile Include="BossEntry.cpp" />
+    <ClCompile Include="BossIdle.cpp" />
+    <ClCompile Include="BossPrepareSlam.cpp" />
+    <ClCompile Include="BossRise.cpp" />
+    <ClCompile Include="BossShockwave.cpp" />
+    <ClCompile Include="BossShockwaveState.cpp" />
+    <ClCompile Include="BossSlam.cpp" />
+    <ClCompile Include="Box2D_Collision.cpp" />
+    <ClCompile Include="Box2D_Joint.cpp" />
+    <ClCompile Include="Box2D_RayCast.cpp" />
+    <ClCompile Include="Box2D_Shape.cpp" />
+    <ClCompile Include="Box2D_World.cpp" />
+    <ClCompile Include="Buyer.cpp" />
+    <ClCompile Include="CameraManager.cpp" />
+    <ClCompile Include="CharacterController.cpp" />
+    <ClCompile Include="CharacterStats.cpp" />
+    <ClCompile Include="Collectable.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="CutsceneBooleanLambda.cpp" />
+    <ClCompile Include="CutsceneCameraShake.cpp" />
+    <ClCompile Include="CutsceneControlFrame.cpp" />
+    <ClCompile Include="CutsceneEntitySetState.cpp" />
+    <ClCompile Include="CutsceneGetStateEnd.cpp" />
+    <ClCompile Include="CutscenePlayerTeleport.cpp" />
+    <ClCompile Include="CutscenePlaySound.cpp" />
+    <ClCompile Include="CutsceneSetPlayerActions.cpp" />
+    <ClCompile Include="EelAttack.cpp" />
+    <ClCompile Include="EelChase.cpp" />
+    <ClCompile Include="EelDeath.cpp" />
+    <ClCompile Include="EelEntity.cpp" />
+    <ClCompile Include="EelHurt.cpp" />
+    <ClCompile Include="EelIdle.cpp" />
+    <ClCompile Include="EelMove.cpp" />
+    <ClCompile Include="FadeinState.cpp" />
+    <ClCompile Include="FadeoutState.cpp" />
+    <ClCompile Include="FlyAttack.cpp" />
+    <ClCompile Include="FlyChase.cpp" />
+    <ClCompile Include="FlyDeath.cpp" />
+    <ClCompile Include="FlyEntity.cpp" />
+    <ClCompile Include="FlyHurt.cpp" />
+    <ClCompile Include="FlyIdle.cpp" />
+    <ClCompile Include="JellyfishDeath.cpp" />
+    <ClCompile Include="GameOverState.cpp" />
+    <ClCompile Include="JellyfishEntity.cpp" />
+    <ClCompile Include="JellyfishHurt.cpp" />
+    <ClCompile Include="MantisDeath.cpp" />
+    <ClCompile Include="MantisEntity.cpp" />
+    <ClCompile Include="MantisHurt.cpp" />
+    <ClCompile Include="MantisIdle.cpp" />
+    <ClCompile Include="MantisJump.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="OctopusBackgroundIdleFall.cpp" />
+    <ClCompile Include="OctopusBackgroundIdleRise.cpp" />
+    <ClCompile Include="OctopusEntity.cpp" />
+    <ClCompile Include="CraftManager.cpp" />
+    <ClCompile Include="CreateState.cpp" />
+    <ClCompile Include="CutsceneAnimateValueDelegate.cpp" />
+    <ClCompile Include="CutsceneCameraGoTo.cpp" />
+    <ClCompile Include="CutsceneCameraReset.cpp" />
+    <ClCompile Include="CutsceneChangeGameSpeed.cpp" />
+    <ClCompile Include="CutsceneDelay.cpp" />
+    <ClCompile Include="CutsceneDialog.cpp" />
+    <ClCompile Include="CutsceneDialogDisable.cpp" />
+    <ClCompile Include="CutscenePlayAnimation.cpp" />
+    <ClCompile Include="Cutscenes.cpp" />
+    <ClCompile Include="CutsceneSetValueDelegate.cpp" />
+    <ClCompile Include="CutsceneZoom.cpp" />
+    <ClCompile Include="DestructionState.cpp" />
+    <ClCompile Include="DialogModule.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityChaseFlying.cpp" />
+    <ClCompile Include="EntityIdleFlying.cpp" />
+    <ClCompile Include="EntityIdleGeneric.cpp" />
+    <ClCompile Include="EntityKnockbackFlying.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="EntityRageChaseFlying.cpp" />
+    <ClCompile Include="EntityRunawayFlying.cpp" />
+    <ClCompile Include="EntityState.cpp" />
+    <ClCompile Include="FileMapper.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GrabHook.cpp" />
+    <ClCompile Include="Guest.cpp" />
+    <ClCompile Include="GuestManager.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="GUIGridLayout.cpp" />
+    <ClCompile Include="GUIImage.cpp" />
+    <ClCompile Include="GUIManager.cpp" />
+    <ClCompile Include="GUIMaskingContainer.cpp" />
+    <ClCompile Include="GUIText.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="JellyfishIdleFall.cpp" />
+    <ClCompile Include="JellyfishIdleRise.cpp" />
+    <ClCompile Include="LoadingState.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MineState.cpp" />
+    <ClCompile Include="MiniMapManager.cpp" />
+    <ClCompile Include="MoveState.cpp" />
+    <ClCompile Include="OctopusAttack.cpp" />
+    <ClCompile Include="OctopusChase.cpp" />
+    <ClCompile Include="OctopusDeath.cpp" />
+    <ClCompile Include="OctopusHurt.cpp" />
+    <ClCompile Include="OctopusIdleFall.cpp" />
+    <ClCompile Include="OctopusIdleRise.cpp" />
+    <ClCompile Include="ParticleEnvironement.cpp" />
+    <ClCompile Include="ParticleManager.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="PlayerInventory.cpp" />
+    <ClCompile Include="RayDeath.cpp" />
+    <ClCompile Include="RayEntity.cpp" />
+    <ClCompile Include="RayHurt.cpp" />
+    <ClCompile Include="RayIdle.cpp" />
+    <ClCompile Include="SaveManager.cpp" />
+    <ClCompile Include="ScrollManager.cpp" />
+    <ClCompile Include="Seller.cpp" />
+    <ClCompile Include="SFMLDebugDraw.cpp" />
+    <ClCompile Include="ShadersManager.cpp" />
+    <ClCompile Include="ShopInventory.cpp" />
+    <ClCompile Include="ShopState.cpp" />
+    <ClCompile Include="ShrimpDeath.cpp" />
+    <ClCompile Include="ShrimpEntity.cpp" />
+    <ClCompile Include="ShrimpHurt.cpp" />
+    <ClCompile Include="ShrimpIdle.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="Slot.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SpiderDeath.cpp" />
+    <ClCompile Include="SpiderEntity.cpp" />
+    <ClCompile Include="SpiderHurt.cpp" />
+    <ClCompile Include="SpiderIdle.cpp" />
+    <ClCompile Include="SpiderIdleMove.cpp" />
+    <ClCompile Include="StandardParticles.cpp" />
+    <ClCompile Include="StartState.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="TimeSpeedManager.cpp" />
+    <ClCompile Include="WorldManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Animator.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BossChase.h" />
+    <ClInclude Include="BossChaseEnd.h" />
+    <ClInclude Include="BossChaseState.h" />
+    <ClInclude Include="BossChaseStateInclude.h" />
+    <ClInclude Include="BossChaseWait.h" />
+    <ClInclude Include="BossDash.h" />
+    <ClInclude Include="BossDeath.h" />
+    <ClInclude Include="BossEntry.h" />
+    <ClInclude Include="BossIdle.h" />
+    <ClInclude Include="BossPrepareSlam.h" />
+    <ClInclude Include="BossRise.h" />
+    <ClInclude Include="BossShockwave.h" />
+    <ClInclude Include="BossShockwaveState.h" />
+    <ClInclude Include="BossSlam.h" />
+    <ClInclude Include="Box2D_Collision.h" />
+    <ClInclude Include="Box2D_Joint.h" />
+    <ClInclude Include="Box2D_RayCast.h" />
+    <ClInclude Include="Box2D_Shape.h" />
+    <ClInclude Include="Box2D_World.h" />
+    <ClInclude Include="Buyer.h" />
+    <ClInclude Include="CameraManager.h" />
+    <ClInclude Include="CharacterController.h" />
+    <ClInclude Include="CharacterStats.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="CutsceneBooleanLambda.h" />
+    <ClInclude Include="CutsceneCameraShake.h" />
+    <ClInclude Include="CutsceneAnimateValueDelegate.h" />
+    <ClInclude Include="CutsceneCameraGoTo.h" />
+    <ClInclude Include="CutsceneCameraReset.h" />
+    <ClInclude Include="CutsceneChangeGameSpeed.h" />
+    <ClInclude Include="CutsceneControlFrame.h" />
+    <ClInclude Include="CutsceneDelay.h" />
+    <ClInclude Include="CutsceneDialog.h" />
+    <ClInclude Include="CutsceneDialogDisable.h" />
+    <ClInclude Include="CutsceneEntitySetState.h" />
+    <ClInclude Include="CutsceneGetStateEnd.h" />
+    <ClInclude Include="CutsceneInstructionsInclude.h" />
+    <ClInclude Include="CutscenePlayAnimation.h" />
+    <ClInclude Include="CutscenePlayerTeleport.h" />
+    <ClInclude Include="CutscenePlaySound.h" />
+    <ClInclude Include="Cutscenes.h" />
+    <ClInclude Include="CutsceneSetPlayerActions.h" />
+    <ClInclude Include="CutsceneSetValueDelegate.h" />
+    <ClInclude Include="CutsceneSetValueTemplate.h" />
+    <ClInclude Include="CutsceneZoom.h" />
+    <ClInclude Include="Collectable.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="EelAttack.h" />
+    <ClInclude Include="EelChase.h" />
+    <ClInclude Include="EelDeath.h" />
+    <ClInclude Include="EelEntity.h" />
+    <ClInclude Include="EelHurt.h" />
+    <ClInclude Include="EelIdle.h" />
+    <ClInclude Include="EelMove.h" />
+    <ClInclude Include="EelStateInclude.h" />
+    <ClInclude Include="EntityInclude.h" />
+    <ClInclude Include="FadeinState.h" />
+    <ClInclude Include="FadeoutState.h" />
+    <ClInclude Include="FlyAttack.h" />
+    <ClInclude Include="FlyChase.h" />
+    <ClInclude Include="FlyDeath.h" />
+    <ClInclude Include="FlyEntity.h" />
+    <ClInclude Include="FlyHurt.h" />
+    <ClInclude Include="FlyIdle.h" />
+    <ClInclude Include="FlyStateInclude.h" />
+    <ClInclude Include="GameStateInclude.h" />
+    <ClInclude Include="JellyfishDeath.h" />
+    <ClInclude Include="GameOverState.h" />
+    <ClInclude Include="JellyfishEntity.h" />
+    <ClInclude Include="JellyfishHurt.h" />
+    <ClInclude Include="JellyfishStateInclude.h" />
+    <ClInclude Include="MantisDeath.h" />
+    <ClInclude Include="MantisEntity.h" />
+    <ClInclude Include="MantisHurt.h" />
+    <ClInclude Include="MantisIdle.h" />
+    <ClInclude Include="MantisJump.h" />
+    <ClInclude Include="MantisStatesInclude.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="OctopusBackgroundIdleFall.h" />
+    <ClInclude Include="OctopusBackgroundIdleRise.h" />
+    <ClInclude Include="OctopusEntity.h" />
+    <ClInclude Include="CraftManager.h" />
+    <ClInclude Include="DestructionState.h" />
+    <ClInclude Include="DialogModule.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityChaseFlying.h" />
+    <ClInclude Include="EntityIdleFlying.h" />
+    <ClInclude Include="EntityIdleGeneric.h" />
+    <ClInclude Include="EntityKnockbackFlying.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="EntityRageChaseFlying.h" />
+    <ClInclude Include="EntityRunawayFlying.h" />
+    <ClInclude Include="EntityState.h" />
+    <ClInclude Include="EntityStateInclude.h" />
+    <ClInclude Include="FileMapper.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GrabHook.h" />
+    <ClInclude Include="Guest.h" />
+    <ClInclude Include="GuestManager.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="GUIManager.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="JellyfishIdleFall.h" />
+    <ClInclude Include="JellyfishIdleRise.h" />
+    <ClInclude Include="ManagerInclude.h" />
+    <ClInclude Include="OctopusIdleFall.h" />
+    <ClInclude Include="OctopusIdleRise.h" />
+    <ClInclude Include="LoadingState.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MineState.h" />
+    <ClInclude Include="MiniMapManager.h" />
+    <ClInclude Include="MoveState.h" />
+    <ClInclude Include="OctopusAttack.h" />
+    <ClInclude Include="OctopusChase.h" />
+    <ClInclude Include="OctopusDeath.h" />
+    <ClInclude Include="OctopusHurt.h" />
+    <ClInclude Include="OctopusStateInclude.h" />
+    <ClInclude Include="ParticleEnvironement.h" />
+    <ClInclude Include="ParticleManager.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="RayDeath.h" />
+    <ClInclude Include="RayEntity.h" />
+    <ClInclude Include="RayHurt.h" />
+    <ClInclude Include="RayIdle.h" />
+    <ClInclude Include="SaveManager.h" />
+    <ClInclude Include="ScrollManager.h" />
+    <ClInclude Include="Seller.h" />
+    <ClInclude Include="SFMLDebugDraw.h" />
+    <ClInclude Include="ShadersManager.hpp" />
+    <ClInclude Include="ShopState.h" />
+    <ClInclude Include="ShrimpDeath.h" />
+    <ClInclude Include="ShrimpEntity.h" />
+    <ClInclude Include="ShrimpHurt.h" />
+    <ClInclude Include="ShrimpIdle.h" />
+    <ClInclude Include="Slider.h" />
+    <ClInclude Include="Slot.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="SpiderDeath.h" />
+    <ClInclude Include="SpiderEntity.h" />
+    <ClInclude Include="SpiderHurt.h" />
+    <ClInclude Include="SpiderIdle.h" />
+    <ClInclude Include="SpiderIdleMove.h" />
+    <ClInclude Include="SpiderStateInclude.h" />
+    <ClInclude Include="StandardParticles.h" />
+    <ClInclude Include="StartState.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="TimeSpeedManager.h" />
+    <ClInclude Include="Trader.h" />
+    <ClInclude Include="WorldManager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{712a9cc4-c7c0-4f0a-bc58-4e5373b9704a}</ProjectGuid>
+    <RootNamespace>DemoSFML</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../include/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../lib/Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>box2d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-main-d.lib;sfml-network-d.lib;opengl32.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;sfeMovie-d.lib;swresample.lib;swscale.lib;thor-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>false</Profile>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../include/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../lib/Release/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>box2d.lib;sfml-system.lib;sfml-window.lib;sfml-audio.lib;sfml-graphics.lib;sfml-main.lib;sfml-network.lib;opengl32.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;sfeMovie.lib;swresample.lib;swscale.lib;thor.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\nlohmann.json.3.11.2\build\native\nlohmann.json.targets" Condition="Exists('..\packages\nlohmann.json.3.11.2\build\native\nlohmann.json.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\nlohmann.json.3.11.2\build\native\nlohmann.json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\nlohmann.json.3.11.2\build\native\nlohmann.json.targets'))" />
+  </Target>
+</Project>

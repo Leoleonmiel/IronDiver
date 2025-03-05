@@ -1,0 +1,1248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GameState">
+      <UniqueIdentifier>{5a5371e5-d47e-4487-91e5-772a05ba2ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{1d64a455-7f8a-49a9-9500-0877536efcce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration">
+      <UniqueIdentifier>{2a7a382f-087b-451d-91f5-75cf23aba02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Shop">
+      <UniqueIdentifier>{091ca96a-dc41-4a36-a2bb-0b064ee251eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities">
+      <UniqueIdentifier>{6297711d-eddd-47ef-b11c-84c0358e055a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\EntityStates">
+      <UniqueIdentifier>{3459b73d-92a1-4966-81ba-61ce238e9099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\EntityStates\Generic">
+      <UniqueIdentifier>{ee071cca-cff2-404a-af43-5c60f7b4584c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\TiledManager">
+      <UniqueIdentifier>{0486009a-79ae-4a2b-b3c5-238ca45d4ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Box2D">
+      <UniqueIdentifier>{099f1fdb-f12a-4955-8b4f-33403dfc3bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utilities">
+      <UniqueIdentifier>{5c163c21-7d8e-4f01-b27f-b80bd7b6466c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\GameState">
+      <UniqueIdentifier>{04473827-d9d2-4dc0-ad79-c68f729df969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{dc702d29-15b3-4ad9-b96c-140ea5898aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Box2D">
+      <UniqueIdentifier>{e7d3bd08-345d-4836-a0b5-fc5d2b08cadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Control">
+      <UniqueIdentifier>{4811c846-63be-4d91-bfff-8ffe1acaf913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\TiledManager">
+      <UniqueIdentifier>{6b59102a-dc2d-4d92-b427-c758d5f2fd20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Shop">
+      <UniqueIdentifier>{5735ea9f-ce92-47a1-a955-81732ddf6e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration">
+      <UniqueIdentifier>{ef769a90-148d-48a7-b8c3-ef0e3b4e6d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities">
+      <UniqueIdentifier>{50b847b0-0fd4-406d-82f2-5e310f5ab02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\EntityStates">
+      <UniqueIdentifier>{8e8347f9-6fc4-4d62-b7a1-982d56e47c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\EntityStates\Flying">
+      <UniqueIdentifier>{1d00fda4-b28e-4aa8-85c1-a573ed19a052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\EntityStates\Generic">
+      <UniqueIdentifier>{e1d0c602-3967-447f-b494-411aa434aa55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Character">
+      <UniqueIdentifier>{cad3ca1b-3523-44f5-b661-b6c0c7690c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utilities">
+      <UniqueIdentifier>{bb89ed9d-99a7-49cd-ab40-46301b1546dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Debug">
+      <UniqueIdentifier>{951bda08-65f0-4f7f-80c6-0573ae01f7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\WAITING FOR A FIX">
+      <UniqueIdentifier>{c53dd93c-d85e-40fb-a448-a9673789fefa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\WAITING FOR A FIX">
+      <UniqueIdentifier>{4a7310df-ce0c-49b0-b0b1-2b33f5d06d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Character">
+      <UniqueIdentifier>{7e89a927-6e32-4be2-bcf9-1c3aed142f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Control">
+      <UniqueIdentifier>{e442d077-eb1d-471c-b271-15aa8de1776e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GUI">
+      <UniqueIdentifier>{876f4842-b2a3-42e8-a5e5-dd4d3fd81025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GUI">
+      <UniqueIdentifier>{abad65dc-b581-4040-80ac-d96ffce864a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\CollectablesStates">
+      <UniqueIdentifier>{e36c2c29-44ba-4dbd-9d13-60b526dcd0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\CollectableStates">
+      <UniqueIdentifier>{11f01435-762e-4672-99c9-b9520c577ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cutscenes">
+      <UniqueIdentifier>{95d125ba-6e90-4018-86ef-484bab005613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cutscenes\Cutscene Instructions">
+      <UniqueIdentifier>{24b168b4-74a1-4d88-88b0-d125d449a03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Cutscenes">
+      <UniqueIdentifier>{8ae52d27-8371-4550-9f7e-fe23bdce3a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Cutscenes\Cutscene Instructions">
+      <UniqueIdentifier>{edd28fdb-26b4-4409-843f-1a4b3e01deba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Shop\Guest">
+      <UniqueIdentifier>{cdd837ee-08ee-45a7-9b40-227505eac3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Shop\Trade">
+      <UniqueIdentifier>{c2aeb869-c7bb-49ad-9b72-af6cf524c161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Shop\Guest">
+      <UniqueIdentifier>{5ad743cc-eae4-4457-84e8-0eb6c26ca072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Shop\Trade">
+      <UniqueIdentifier>{1f6cb1e7-b03e-4d9a-ae53-2f28370690b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Particles">
+      <UniqueIdentifier>{116d4e94-b0e3-477f-90be-1a8e3c51f720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Particles">
+      <UniqueIdentifier>{acafae0b-c459-411e-8d78-cebee029876d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Includes">
+      <UniqueIdentifier>{92e21fce-17fb-41e0-85f3-cec5d604c808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Shop\Slots">
+      <UniqueIdentifier>{8255feef-346c-4ae0-857b-9172a12e1fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Shop\Slots">
+      <UniqueIdentifier>{14244200-ac1c-4888-918a-6faae15b2d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\EntityStates\9_Generic">
+      <UniqueIdentifier>{35461155-f7db-439b-ad5f-02d4eabe6cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\1_Octopus">
+      <UniqueIdentifier>{9c8dedcc-c23c-4392-a4fe-b018577bf73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\2_Spider">
+      <UniqueIdentifier>{0b888de1-bfdf-4ae0-abd8-74007aa4bebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\3_Jellyfish">
+      <UniqueIdentifier>{2907e311-763b-4235-8fa9-1afc902d7a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\1_Octopus\States">
+      <UniqueIdentifier>{1b1c4876-c3c2-4195-a518-d9c8494586f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\2_Spider\States">
+      <UniqueIdentifier>{1f8594fa-0b39-48f2-af2e-e8d8eba0b9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\3_Jellyfish\States">
+      <UniqueIdentifier>{826a2aef-7f73-4aa3-b91f-2dd6994b0432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\4_Shrimp">
+      <UniqueIdentifier>{67025edc-7659-47f6-bbec-b481d02f4be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\4_Shrimp\States">
+      <UniqueIdentifier>{db760e5a-8cd2-449d-bf56-1e0a4ea7c3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\6_Ray">
+      <UniqueIdentifier>{1993d372-34ba-4f8d-a529-4bbfe5300784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\5_Mantis">
+      <UniqueIdentifier>{909fef7e-2cc0-4521-ae65-98c188ab834d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\5_Mantis\State">
+      <UniqueIdentifier>{789ea90a-341b-40a4-ad74-22db0eeeda4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\7_Fly">
+      <UniqueIdentifier>{e0a299e0-35b2-4404-bf97-166aaadb4093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\7_Fly\State">
+      <UniqueIdentifier>{1f0e01c3-c3e1-421e-9880-1464f0db103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\8_Eel">
+      <UniqueIdentifier>{7e71fa0c-eb8a-4a1f-b8c5-e302a346eba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\8_Eel\State">
+      <UniqueIdentifier>{9da64c70-5d28-4fa1-ab58-3e7978dc9315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus">
+      <UniqueIdentifier>{2c53a398-a502-4208-a806-1914d41e5e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States">
+      <UniqueIdentifier>{c2cd6e64-5a50-4898-9c64-c72abf939ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\2_Spider">
+      <UniqueIdentifier>{bacf331e-9911-4d0f-aa84-f7a95c196959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\2_Spider\States">
+      <UniqueIdentifier>{b4143657-a697-45dc-b028-554c75a09f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\3_Jellyfish">
+      <UniqueIdentifier>{3173a2fe-f36e-407a-bb87-c17033780702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\3_Jellyfish\States">
+      <UniqueIdentifier>{fc0b8d00-a2cc-4f9d-bc6f-d431db4bc648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\4_Shrimp">
+      <UniqueIdentifier>{be715612-01d4-4161-b24c-1905d3274427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\4_Shrimp\States">
+      <UniqueIdentifier>{4f61acb0-eb6f-4f24-a01d-0b1982ad825e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\5_Mantis">
+      <UniqueIdentifier>{6969c5d4-4e72-4445-bac5-bc865fc0c1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\5_Mantis\State">
+      <UniqueIdentifier>{613faf6d-78e3-4e7d-b6e0-4e948ed13eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\6_Ray">
+      <UniqueIdentifier>{c5353dd6-1b2f-43b1-b3ea-df49cda328f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\6_Ray\States">
+      <UniqueIdentifier>{522d32ac-87e0-488c-b84e-e72cfca4f6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly">
+      <UniqueIdentifier>{aa679298-39a1-4447-892f-608f23fea64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly\State">
+      <UniqueIdentifier>{d768e09a-590a-4834-8b4e-f47e914357d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel">
+      <UniqueIdentifier>{911ba9d7-a1ac-484b-a3ea-52575569bf6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel\State">
+      <UniqueIdentifier>{12623a26-2f0e-4d9c-b646-4e26427bd2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\9_Generic">
+      <UniqueIdentifier>{78e59c7f-c281-4417-8d53-294940fedb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\01_Boss_Chase">
+      <UniqueIdentifier>{1bc1e0bf-9fbd-4721-8dbf-e980bdffaee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\01_Boss_Chase\States">
+      <UniqueIdentifier>{2e4c6180-39c8-4771-a7f3-5a8a67090b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss">
+      <UniqueIdentifier>{500ddb09-7194-44cd-85d7-88dfb4c7451b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss\States">
+      <UniqueIdentifier>{7bae4a66-def5-4964-a66e-f3b62828ce17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\01_BossChase">
+      <UniqueIdentifier>{2d3f6723-737c-4b23-96f4-75e5e7f646eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\02_Boss">
+      <UniqueIdentifier>{bd4133a0-ebc0-46f7-bcf9-17706454f5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\01_BossChase\States">
+      <UniqueIdentifier>{b7be23b3-38f5-4375-894f-f8be6246bc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\02_Boss\States">
+      <UniqueIdentifier>{665c15b0-2e1f-4aa4-8721-bdfb71322660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Exploration\Entities\03_BossShockwave">
+      <UniqueIdentifier>{d181db4a-3611-4f07-b960-c01b104c2610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Exploration\Entities\03_BossShockwave">
+      <UniqueIdentifier>{d2b9f2c1-c37b-4e3f-b29a-5c04ce027052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Save">
+      <UniqueIdentifier>{13a400ed-7a72-41d5-9ff5-65fe334cf6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Save">
+      <UniqueIdentifier>{0e80bab1-99d2-4919-a3b9-9e3bbab22dbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityState.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\EntityStates</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityIdleGeneric.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\EntityStates\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>Fichiers sources\Game\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLDebugDraw.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftManager.cpp">
+      <Filter>Fichiers sources\Game\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopInventory.cpp">
+      <Filter>Fichiers sources\Game\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventory.cpp">
+      <Filter>Fichiers sources\Game\Exploration</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMapper.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterStats.cpp">
+      <Filter>Fichiers sources\Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingState.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapManager.cpp">
+      <Filter>Fichiers sources\Game\Exploration</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIImage.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIManager.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIText.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIGridLayout.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveState.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\CollectablesStates</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructionState.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\CollectablesStates</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateState.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\CollectablesStates</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogModule.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Cutscenes.cpp">
+      <Filter>Fichiers sources\Cutscenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneCameraGoTo.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneCameraReset.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneDialogDisable.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="Guest.cpp">
+      <Filter>Fichiers sources\Game\Shop\Guest</Filter>
+    </ClCompile>
+    <ClCompile Include="GuestManager.cpp">
+      <Filter>Fichiers sources\Game\Shop\Guest</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneDelay.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D_Collision.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D_World.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D_Joint.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D_Shape.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CutscenePlayAnimation.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopState.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D_Shape.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D_Joint.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D_World.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneZoom.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="MineState.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneDialog.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneSetValueDelegate.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneAnimateValueDelegate.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneChangeGameSpeed.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMaskingContainer.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Fichiers sources\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardParticles.cpp">
+      <Filter>Fichiers sources\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GrabHook.cpp">
+      <Filter>Fichiers sources\Game\Exploration</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D_RayCast.cpp">
+      <Filter>Fichiers sources\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeoutState.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeinState.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityChaseFlying.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\EntityStates\9_Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityIdleFlying.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\EntityStates\9_Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityKnockbackFlying.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\EntityStates\9_Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRageChaseFlying.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\EntityStates\9_Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRunawayFlying.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\EntityStates\9_Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollManager.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Buyer.cpp">
+      <Filter>Fichiers sources\Game\Shop\Guest</Filter>
+    </ClCompile>
+    <ClCompile Include="Seller.cpp">
+      <Filter>Fichiers sources\Game\Shop\Guest</Filter>
+    </ClCompile>
+    <ClCompile Include="Slot.cpp">
+      <Filter>Fichiers sources\Game\Shop\Slots</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Fichiers sources\Game\TiledManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>Fichiers sources\Game\TiledManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusEntity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyfishEntity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\3_Jellyfish</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderEntity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\2_Spider</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusAttack.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusChase.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusHurt.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusIdleFall.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusIdleRise.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\2_Spider\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderHurt.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\2_Spider\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderIdle.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\2_Spider\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderIdleMove.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\2_Spider\States</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyfishDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\3_Jellyfish\States</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyfishHurt.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\3_Jellyfish\States</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyfishIdleFall.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\3_Jellyfish\States</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyfishIdleRise.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\3_Jellyfish\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ShrimpEntity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\4_Shrimp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShrimpDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\4_Shrimp\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ShrimpHurt.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\4_Shrimp\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ShrimpIdle.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\4_Shrimp\States</Filter>
+    </ClCompile>
+    <ClCompile Include="RayDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\6_Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="RayHurt.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\6_Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="RayIdle.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\6_Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="RayEntity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\6_Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="MantisDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\5_Mantis\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MantisHurt.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\5_Mantis\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MantisIdle.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\5_Mantis\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MantisJump.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\5_Mantis\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MantisEntity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\5_Mantis</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollManager.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyAttack.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyChase.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyHurt.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyIdle.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyEntity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\7_Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="EelEntity.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\8_Eel</Filter>
+    </ClCompile>
+    <ClCompile Include="EelAttack.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClCompile>
+    <ClCompile Include="EelChase.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClCompile>
+    <ClCompile Include="EelDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClCompile>
+    <ClCompile Include="EelHurt.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClCompile>
+    <ClCompile Include="EelMove.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClCompile>
+    <ClCompile Include="EelIdle.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Seller.cpp">
+      <Filter>Fichiers sources\Game\Shop\Guest</Filter>
+    </ClCompile>
+    <ClCompile Include="Buyer.cpp">
+      <Filter>Fichiers sources\Game\Shop\Guest</Filter>
+    </ClCompile>
+    <ClCompile Include="StartState.cpp">
+      <Filter>Fichiers sources\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSpeedManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BossChase.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\01_BossChase</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\02_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CutscenePlayerTeleport.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneGetStateEnd.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneSetPlayerActions.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="BossChaseEnd.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\01_BossChase\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossChaseState.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\01_BossChase\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossChaseWait.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\01_BossChase\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRise.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\01_BossChase\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossDash.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEntry.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossIdle.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossPrepareSlam.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSlam.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossShockwaveState.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\03_BossShockwave</Filter>
+    </ClCompile>
+    <ClCompile Include="BossShockwave.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\03_BossShockwave</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneCameraShake.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>Fichiers sources\Game\Save</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusBackgroundIdleFall.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="OctopusBackgroundIdleRise.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneControlFrame.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneEntitySetState.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneBooleanLambda.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CutscenePlaySound.cpp">
+      <Filter>Fichiers sources\Cutscenes\Cutscene Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Fichiers sources\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEnvironement.cpp">
+      <Filter>Fichiers sources\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="BossDeath.cpp">
+      <Filter>Fichiers sources\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadersManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameState.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityState.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\EntityStates</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityStateInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\EntityStates</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityIdleGeneric.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\EntityStates\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>Fichiers d%27en-tête\Game\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLDebugDraw.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftManager.h">
+      <Filter>Fichiers d%27en-tête\Game\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMapper.h">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GrabHook.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterStats.h">
+      <Filter>Fichiers d%27en-tête\Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingState.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapManager.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIManager.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogModule.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructionState.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\CollectableStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveState.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\CollectableStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Cutscenes.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneCameraGoTo.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneCameraReset.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneDialogDisable.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneDelay.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="Guest.h">
+      <Filter>Fichiers d%27en-tête\Game\Shop\Guest</Filter>
+    </ClInclude>
+    <ClInclude Include="GuestManager.h">
+      <Filter>Fichiers d%27en-tête\Game\Shop\Guest</Filter>
+    </ClInclude>
+    <ClInclude Include="Trader.h">
+      <Filter>Fichiers d%27en-tête\Game\Shop\Guest</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneInstructionsInclude.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CutscenePlayAnimation.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_Collision.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_World.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_Collision.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_Joint.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_Shape.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopState.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_World.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_Collision.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_Joint.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_Shape.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneZoom.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneChangeGameSpeed.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneAnimateValueDelegate.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneSetValueDelegate.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="MineState.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneDialog.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Fichiers d%27en-tête\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardParticles.h">
+      <Filter>Fichiers d%27en-tête\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D_RayCast.h">
+      <Filter>Fichiers d%27en-tête\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeoutState.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeinState.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Buyer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Seller.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerInclude.h">
+      <Filter>Fichiers d%27en-tête\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRunawayFlying.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\9_Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityIdleFlying.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\9_Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityKnockbackFlying.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\9_Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRageChaseFlying.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\9_Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityChaseFlying.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\9_Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollManager.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Seller.h">
+      <Filter>Fichiers d%27en-tête\Game\Shop\Guest</Filter>
+    </ClInclude>
+    <ClInclude Include="Buyer.h">
+      <Filter>Fichiers d%27en-tête\Game\Shop\Guest</Filter>
+    </ClInclude>
+    <ClInclude Include="Slot.h">
+      <Filter>Fichiers d%27en-tête\Game\Shop\Slots</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Fichiers d%27en-tête\Game\TiledManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.hpp">
+      <Filter>Fichiers d%27en-tête\Game\TiledManager</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyfishStateInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\3_Jellyfish</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderStateInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\2_Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusEntity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusAttack.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusChase.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusHurt.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusIdleFall.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusIdleRise.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusStateInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\2_Spider\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderHurt.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\2_Spider\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderIdle.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\2_Spider\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderIdleMove.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\2_Spider\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderEntity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\2_Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyfishDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\3_Jellyfish\States</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyfishHurt.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\3_Jellyfish\States</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyfishIdleFall.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\3_Jellyfish\States</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyfishIdleRise.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\3_Jellyfish\States</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyfishEntity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\3_Jellyfish</Filter>
+    </ClInclude>
+    <ClInclude Include="ShrimpEntity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\4_Shrimp</Filter>
+    </ClInclude>
+    <ClInclude Include="ShrimpIdle.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\4_Shrimp\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ShrimpHurt.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\4_Shrimp\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="ShrimpDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\4_Shrimp\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Fichiers d%27en-tête\Game\TiledManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RayEntity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\6_Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="RayIdle.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\6_Ray\States</Filter>
+    </ClInclude>
+    <ClInclude Include="RayHurt.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\6_Ray\States</Filter>
+    </ClInclude>
+    <ClInclude Include="RayDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\6_Ray\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MantisEntity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\5_Mantis</Filter>
+    </ClInclude>
+    <ClInclude Include="MantisStatesInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\5_Mantis</Filter>
+    </ClInclude>
+    <ClInclude Include="MantisDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\5_Mantis\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MantisHurt.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\5_Mantis\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MantisIdle.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\5_Mantis\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MantisJump.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\5_Mantis\State</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollManager.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyAttack.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyChase.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyHurt.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyIdle.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly\State</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyEntity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyStateInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\7_Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="EelAttack.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClInclude>
+    <ClInclude Include="EelChase.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClInclude>
+    <ClInclude Include="EelDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClInclude>
+    <ClInclude Include="EelHurt.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClInclude>
+    <ClInclude Include="EelIdle.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClInclude>
+    <ClInclude Include="EelMove.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel\State</Filter>
+    </ClInclude>
+    <ClInclude Include="EelStateInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel</Filter>
+    </ClInclude>
+    <ClInclude Include="EelEntity.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\8_Eel</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneSetPlayerActions.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="StartState.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSpeedManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossChase.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\01_Boss_Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="BossChaseEnd.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\01_Boss_Chase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BossDash.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BossChaseState.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\01_Boss_Chase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BossChaseWait.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\01_Boss_Chase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BossChaseStateInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\01_Boss_Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEntry.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BossIdle.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BossPrepareSlam.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSlam.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRise.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\01_Boss_Chase\States</Filter>
+    </ClInclude>
+    <ClInclude Include="CutscenePlayerTeleport.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneGetStateEnd.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="BossShockwaveState.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\03_BossShockwave</Filter>
+    </ClInclude>
+    <ClInclude Include="BossShockwave.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\03_BossShockwave</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneCameraShake.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityInclude.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateInclude.h">
+      <Filter>Fichiers d%27en-tête\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusBackgroundIdleFall.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="OctopusBackgroundIdleRise.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\1_Octopus\States</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneControlFrame.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneEntitySetState.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneSetValueTemplate.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneBooleanLambda.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CutscenePlaySound.h">
+      <Filter>Fichiers d%27en-tête\Cutscenes\Cutscene Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Fichiers d%27en-tête\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEnvironement.h">
+      <Filter>Fichiers d%27en-tête\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="BossDeath.h">
+      <Filter>Fichiers d%27en-tête\Game\Exploration\Entities\02_Boss\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadersManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
