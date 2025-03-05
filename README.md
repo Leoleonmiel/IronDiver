@@ -5,7 +5,6 @@
 ## 📌 About  
 Developed in **9 Weeks**, this game was created while learning **C++ with SFML**.
 
-
-- ## 👥 Contributors  
+## 👥 Contributors  
 - [@Thomas COYNE](https://github.com/Turrok)
 - [@Timotee BABOULINE](https://github.com/TimoteeBaboulin)    
