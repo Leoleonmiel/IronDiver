@@ -1,4 +1,4 @@
-# Muscle Bird
+# Iron Diver
 
 **Iron Diver** You take on the role of an astronaut stranded on a mysterious planet! Control a robot to explore the captivating world, collect resources, and trade with the locals to unlock new abilities and upgrades
 
